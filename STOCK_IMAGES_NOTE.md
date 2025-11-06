@@ -1,8 +1,27 @@
 # Stock Images Currently in Use
 
-The B2B Solutions section is currently using stock images from Unsplash. These are free to use and will work perfectly until you're ready to replace them with your own photos.
+The B2B Solutions and CNC Laser Cutting sections are currently using stock images from Unsplash. These are free to use and will work perfectly until you're ready to replace them with your own photos.
 
 ## Current Stock Images
+
+### CNC Laser Cutting Section
+
+#### Industrial Parts
+- **Current URL**: `https://images.unsplash.com/photo-1565008576549-57569a49371d`
+- **Shows**: Precision metal manufacturing/CNC machinery
+- **Replace with**: Your actual CNC cut metal parts
+
+#### Custom Brackets & Mounts
+- **Current URL**: `https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1`
+- **Shows**: Metal fabrication and machinery
+- **Replace with**: Your custom bracket work
+
+#### Decorative Metal Work
+- **Current URL**: `https://images.unsplash.com/photo-1587293852726-70cdb56c2866`
+- **Shows**: Intricate metal patterns/architectural elements
+- **Replace with**: Your decorative laser cut pieces
+
+### B2B Solutions Section
 
 ### Corporate Gifts
 - **Current URL**: `https://images.unsplash.com/photo-1513885535751-8b9238bd345a`

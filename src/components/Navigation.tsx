@@ -18,6 +18,7 @@ export default function Navigation() {
 
   const navLinks = [
     { name: "Products", href: "#products" },
+    { name: "CNC Cutting", href: "#cnc-cutting" },
     { name: "Services", href: "#services" },
     { name: "B2B Solutions", href: "#b2b" },
     { name: "Partners", href: "#partners" },

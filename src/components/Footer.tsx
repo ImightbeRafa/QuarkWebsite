@@ -48,6 +48,14 @@ export default function Footer() {
               </li>
               <li>
                 <a
+                  href="#cnc-cutting"
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
+                  CNC Cutting
+                </a>
+              </li>
+              <li>
+                <a
                   href="#services"
                   className="text-gray-400 hover:text-white transition-colors"
                 >

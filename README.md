@@ -8,6 +8,7 @@ A modern, elegant showcase website for Quark Costa Rica's laser engraving servic
 - **Modern UI**: Clean, professional design with smooth animations
 - **Static Export**: Optimized for fast loading and SEO
 - **Product Catalog**: Showcase your laser engraving services
+- **CNC Laser Cutting**: Dedicated section for precision metal cutting services
 - **B2B Solutions**: Dedicated section for business partnerships
 - **Partners Section**: Display your collaborators and partners
 - **Easy to Deploy**: Ready for Vercel deployment
@@ -47,6 +48,7 @@ Edit the following files to update your company information:
 - **Navigation & Footer**: `src/components/Navigation.tsx` and `src/components/Footer.tsx`
 - **Hero Section**: `src/components/Hero.tsx`
 - **Products**: `src/components/Products.tsx`
+- **CNC Laser Cutting**: `src/components/CNCLaserCutting.tsx`
 - **Services**: `src/components/Services.tsx`
 - **B2B Solutions**: `src/components/B2BSolutions.tsx`
 - **Partners**: `src/components/Partners.tsx`
@@ -54,14 +56,14 @@ Edit the following files to update your company information:
 ### Add Your Images
 
 The website currently uses:
-- **Your uploaded images** for Products and Hero sections
-- **Unsplash stock images** for the B2B Solutions section (free to use)
+- **Your uploaded images** for Products, Hero, Logo, and Partners sections
+- **Unsplash stock images** for the CNC Laser Cutting and B2B Solutions sections (free to use)
 
 To add more images:
 1. Add images to `public/images/` folder
 2. Update the image references in the components
 
-See `STOCK_IMAGES_NOTE.md` for details on replacing B2B stock photos.
+See `STOCK_IMAGES_NOTE.md` for details on replacing stock photos.
 
 Example:
 ```tsx
