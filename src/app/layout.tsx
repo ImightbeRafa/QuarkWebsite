@@ -8,8 +8,11 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Quark Costa Rica | Laser Engraving Solutions",
-  description: "Professional laser engraving services for wood, steel, tumblers, stone, and more. B2B custom solutions available.",
-  keywords: "laser engraving, Costa Rica, wood engraving, steel engraving, custom products, B2B solutions",
+  description: "Professional laser engraving services for wood, steel, tumblers, leather, and more. B2B custom solutions available.",
+  keywords: "laser engraving, Costa Rica, wood engraving, steel engraving, leather engraving, custom products, B2B solutions",
+  icons: {
+    icon: '/images/logo.png',
+  },
 };
 
 export default function RootLayout({

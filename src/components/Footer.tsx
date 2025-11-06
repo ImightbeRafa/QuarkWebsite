@@ -10,14 +10,16 @@ export default function Footer() {
           {/* Company Info */}
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
-              <div className="w-10 h-10 bg-gradient-to-br from-primary-400 to-primary-600 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-xl">Q</span>
-              </div>
+              <img 
+                src="/images/logo.png" 
+                alt="Quark Costa Rica Logo" 
+                className="h-10 w-auto"
+              />
               <span className="text-xl font-bold">Quark Costa Rica</span>
             </div>
             <p className="text-gray-400 mb-6 max-w-md">
               Professional laser engraving services for wood, steel, tumblers,
-              stone, and more. Creating custom solutions for businesses and
+              leather, and more. Creating custom solutions for businesses and
               individuals.
             </p>
             <div className="flex space-x-4">

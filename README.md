@@ -1,6 +1,6 @@
 # Quark Costa Rica - Laser Engraving Website
 
-A modern, elegant showcase website for Quark Costa Rica's laser engraving services. Built with Next.js, TypeScript, and Tailwind CSS for optimal performance and aesthetics.
+A modern, elegant showcase website for Quark Costa Rica's laser engraving services for wood, steel, tumblers, leather, and more. Built with Next.js, TypeScript, and Tailwind CSS for optimal performance and aesthetics.
 
 ## 🌟 Features
 
@@ -53,15 +53,19 @@ Edit the following files to update your company information:
 
 ### Add Your Images
 
-Replace placeholder images in the components with your actual product photos:
+The website currently uses:
+- **Your uploaded images** for Products and Hero sections
+- **Unsplash stock images** for the B2B Solutions section (free to use)
 
-1. Create a `public` folder in the project root
-2. Add your images to the `public` folder
-3. Update the image references in the components
+To add more images:
+1. Add images to `public/images/` folder
+2. Update the image references in the components
+
+See `STOCK_IMAGES_NOTE.md` for details on replacing B2B stock photos.
 
 Example:
 ```tsx
-<img src="/your-image.jpg" alt="Description" />
+<img src="/images/your-image.jpg" alt="Description" />
 ```
 
 ### Update Colors

@@ -1,4 +1,4 @@
-import { Box, Droplet, Mountain, Wrench } from "lucide-react";
+import { Box, Droplet, Layers, Wrench } from "lucide-react";
 
 export default function Products() {
   const products = [
@@ -8,6 +8,7 @@ export default function Products() {
       description: "Custom designs on various wood types with precision and detail.",
       icon: Box,
       color: "from-amber-400 to-amber-600",
+      image: "wood-engraving.jpg",
     },
     {
       id: 2,
@@ -15,6 +16,7 @@ export default function Products() {
       description: "Durable engravings on steel, aluminum, and other metals.",
       icon: Wrench,
       color: "from-gray-400 to-gray-600",
+      image: "steel-engraving.jpg",
     },
     {
       id: 3,
@@ -22,13 +24,15 @@ export default function Products() {
       description: "Personalized tumblers, bottles, and drinkware for any occasion.",
       icon: Droplet,
       color: "from-blue-400 to-blue-600",
+      image: "tumblers.jpg",
     },
     {
       id: 4,
-      title: "Stone & Glass",
-      description: "Elegant engravings on stone, glass, and ceramic materials.",
-      icon: Mountain,
-      color: "from-slate-400 to-slate-600",
+      title: "Leather",
+      description: "Premium leather engraving for custom wallets, belts, and accessories.",
+      icon: Layers,
+      color: "from-amber-700 to-amber-900",
+      image: "leather.jpg",
     },
   ];
 
@@ -69,9 +73,13 @@ export default function Products() {
                   {product.description}
                 </p>
 
-                {/* Placeholder for product image */}
-                <div className="mt-6 aspect-video bg-gradient-to-br from-gray-50 to-gray-100 rounded-lg flex items-center justify-center">
-                  <span className="text-gray-400 text-sm">Product Image</span>
+                {/* Product image */}
+                <div className="mt-6 aspect-video rounded-lg overflow-hidden bg-gray-100">
+                  <img 
+                    src={`/images/products/${product.image}`}
+                    alt={product.title}
+                    className="w-full h-full object-cover"
+                  />
                 </div>
 
                 {/* Hover Effect Border */}

@@ -12,14 +12,10 @@ public/
 │   ├── hero/
 │   │   └── main-hero.jpg        # Main showcase image for hero section
 │   ├── products/
-│   │   ├── wood-1.jpg           # Wood engraving examples
-│   │   ├── wood-2.jpg
-│   │   ├── steel-1.jpg          # Steel/metal examples
-│   │   ├── steel-2.jpg
-│   │   ├── tumblers-1.jpg       # Tumbler examples
-│   │   ├── tumblers-2.jpg
-│   │   ├── stone-1.jpg          # Stone/glass examples
-│   │   └── stone-2.jpg
+│   │   ├── wood-engraving.jpg   # Wood engraving examples
+│   │   ├── steel-engraving.jpg  # Steel/metal examples
+│   │   ├── tumblers.jpg         # Tumbler examples
+│   │   └── leather.jpg          # Leather engraving examples
 │   ├── gallery/
 │   │   └── *.jpg                # Additional portfolio images
 │   ├── partners/

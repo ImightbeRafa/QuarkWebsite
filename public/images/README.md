@@ -2,24 +2,29 @@
 
 Place your images here:
 
-## Suggested Structure
+## Current Structure
 
 ```
 images/
-├── logo.png or logo.svg          # Company logo
+├── logo.png                     # ✅ Company logo (active)
 ├── hero/
-│   └── hero-image.jpg           # Main hero section image
+│   └── hero-image.jpg          # ✅ Main hero section image (active)
 ├── products/
-│   ├── wood-engraving.jpg       # Wood product examples
-│   ├── steel-engraving.jpg      # Steel product examples
-│   ├── tumblers.jpg             # Tumbler examples
-│   └── stone-glass.jpg          # Stone/glass examples
-├── gallery/
-│   └── *.jpg                    # Gallery images
+│   ├── wood-engraving.jpg      # ✅ Wood product (active)
+│   ├── steel-engraving.jpg     # ✅ Steel product (active)
+│   ├── tumblers.jpg            # ✅ Tumbler product (active)
+│   └── leather.jpg             # ✅ Leather product (active)
 └── partners/
-    └── *.png                    # Partner logos
+    ├── 1.png                   # ✅ Partner logos (active)
+    ├── 2.png                   # ✅
+    ├── 3.png                   # ✅
+    ├── 4.jpg                   # ✅
+    ├── 5.png                   # ✅
+    └── 6.jpg                   # ✅
 
 ```
+
+All images are now being used on the website!
 
 ## Image Optimization Tips
 

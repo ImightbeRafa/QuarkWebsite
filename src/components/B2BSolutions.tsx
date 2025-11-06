@@ -1,4 +1,4 @@
-import { Building2, Package, Truck, Users } from "lucide-react";
+import { Package, Truck, Users, Building2 } from "lucide-react";
 
 export default function B2BSolutions() {
   const features = [
@@ -28,17 +28,17 @@ export default function B2BSolutions() {
     {
       title: "Corporate Gifts",
       description: "Personalized items for employees, clients, and partners",
-      image: "corporate-gifts",
+      imageUrl: "https://images.unsplash.com/photo-1513885535751-8b9238bd345a?w=800&h=600&fit=crop&q=80",
     },
     {
       title: "Retail Products",
       description: "Custom merchandise for your store or online business",
-      image: "retail-products",
+      imageUrl: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=800&h=600&fit=crop&q=80",
     },
     {
       title: "Event Merchandise",
       description: "Branded items for conferences, trade shows, and events",
-      image: "event-merchandise",
+      imageUrl: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&h=600&fit=crop&q=80",
     },
   ];
 
@@ -90,12 +90,13 @@ export default function B2BSolutions() {
                 key={index}
                 className="group relative bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all"
               >
-                {/* Placeholder Image */}
-                <div className="aspect-[4/3] bg-gradient-to-br from-primary-100 to-primary-200 flex items-center justify-center">
-                  <div className="text-center p-6">
-                    <Building2 size={64} className="text-primary-600 mx-auto mb-3" />
-                    <span className="text-gray-600 text-sm">{useCase.image}</span>
-                  </div>
+                {/* Stock Image */}
+                <div className="aspect-[4/3] overflow-hidden bg-gray-100">
+                  <img
+                    src={useCase.imageUrl}
+                    alt={useCase.title}
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  />
                 </div>
                 
                 {/* Content */}

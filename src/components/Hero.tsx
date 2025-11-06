@@ -26,7 +26,7 @@ export default function Hero() {
             </h1>
             
             <p className="text-xl text-gray-600 mb-8 max-w-2xl">
-              Professional laser engraving services for wood, steel, tumblers, stone, and more. 
+              Professional laser engraving services for wood, steel, tumblers, leather, and more. 
               We bring precision and artistry to every project, from single pieces to large B2B orders.
             </p>
             
@@ -47,17 +47,14 @@ export default function Hero() {
             </div>
           </div>
 
-          {/* Right Content - Placeholder Image */}
+          {/* Right Content - Hero Image */}
           <div className="relative animate-slide-in">
-            <div className="aspect-square bg-gradient-to-br from-primary-100 to-primary-200 rounded-3xl flex items-center justify-center shadow-2xl">
-              <div className="text-center p-8">
-                <div className="w-32 h-32 mx-auto mb-4 bg-white rounded-full flex items-center justify-center shadow-lg">
-                  <Zap size={64} className="text-primary-600" />
-                </div>
-                <p className="text-gray-600 text-lg font-medium">
-                  Your laser engraved<br />product showcase
-                </p>
-              </div>
+            <div className="aspect-square rounded-3xl overflow-hidden shadow-2xl">
+              <img 
+                src="/images/hero/hero-image.jpg" 
+                alt="Quark Costa Rica Laser Engraving Showcase"
+                className="w-full h-full object-cover"
+              />
             </div>
             
             {/* Floating Elements */}

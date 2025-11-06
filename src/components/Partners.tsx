@@ -1,14 +1,14 @@
 import { Handshake } from "lucide-react";
 
 export default function Partners() {
-  // Placeholder partner data
+  // Partner data with actual logos
   const partners = [
-    { id: 1, name: "Partner 1" },
-    { id: 2, name: "Partner 2" },
-    { id: 3, name: "Partner 3" },
-    { id: 4, name: "Partner 4" },
-    { id: 5, name: "Partner 5" },
-    { id: 6, name: "Partner 6" },
+    { id: 1, name: "Partner 1", logo: "1.png" },
+    { id: 2, name: "Partner 2", logo: "2.png" },
+    { id: 3, name: "Partner 3", logo: "3.png" },
+    { id: 4, name: "Partner 4", logo: "4.jpg" },
+    { id: 5, name: "Partner 5", logo: "5.jpg" },
+    { id: 6, name: "Partner 6", logo: "6.jpg" },
   ];
 
   return (
@@ -33,16 +33,13 @@ export default function Partners() {
           {partners.map((partner) => (
             <div
               key={partner.id}
-              className="aspect-square bg-gradient-to-br from-gray-50 to-gray-100 rounded-xl flex items-center justify-center hover:shadow-lg transition-all border border-gray-200 group cursor-pointer"
+              className="aspect-square bg-white rounded-xl flex items-center justify-center hover:shadow-lg transition-all border border-gray-200 group cursor-pointer p-4"
             >
-              <div className="text-center p-4">
-                <div className="w-12 h-12 mx-auto mb-2 bg-primary-100 rounded-full flex items-center justify-center group-hover:bg-primary-600 transition-colors">
-                  <Handshake size={24} className="text-primary-600 group-hover:text-white transition-colors" />
-                </div>
-                <span className="text-sm text-gray-600 font-medium">
-                  {partner.name}
-                </span>
-              </div>
+              <img 
+                src={`/images/partners/${partner.logo}`}
+                alt={partner.name}
+                className="w-full h-full object-contain group-hover:scale-105 transition-transform"
+              />
             </div>
           ))}
         </div>
