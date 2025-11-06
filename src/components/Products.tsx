@@ -1,0 +1,99 @@
+import { Box, Droplet, Mountain, Wrench } from "lucide-react";
+
+export default function Products() {
+  const products = [
+    {
+      id: 1,
+      title: "Wood Engraving",
+      description: "Custom designs on various wood types with precision and detail.",
+      icon: Box,
+      color: "from-amber-400 to-amber-600",
+    },
+    {
+      id: 2,
+      title: "Steel & Metal",
+      description: "Durable engravings on steel, aluminum, and other metals.",
+      icon: Wrench,
+      color: "from-gray-400 to-gray-600",
+    },
+    {
+      id: 3,
+      title: "Tumblers & Drinkware",
+      description: "Personalized tumblers, bottles, and drinkware for any occasion.",
+      icon: Droplet,
+      color: "from-blue-400 to-blue-600",
+    },
+    {
+      id: 4,
+      title: "Stone & Glass",
+      description: "Elegant engravings on stone, glass, and ceramic materials.",
+      icon: Mountain,
+      color: "from-slate-400 to-slate-600",
+    },
+  ];
+
+  return (
+    <section id="products" className="py-24 bg-white">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+        {/* Section Header */}
+        <div className="text-center mb-16">
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            Our Product Catalog
+          </h2>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            Discover our wide range of laser engraving services across multiple materials.
+            Each piece is crafted with precision and attention to detail.
+          </p>
+        </div>
+
+        {/* Products Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          {products.map((product, index) => {
+            const Icon = product.icon;
+            return (
+              <div
+                key={product.id}
+                className="group relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-gray-100"
+                style={{ animationDelay: `${index * 100}ms` }}
+              >
+                {/* Icon */}
+                <div className={`w-16 h-16 rounded-xl bg-gradient-to-br ${product.color} flex items-center justify-center mb-6 group-hover:scale-110 transition-transform`}>
+                  <Icon size={32} className="text-white" />
+                </div>
+
+                {/* Content */}
+                <h3 className="text-2xl font-bold text-gray-900 mb-3">
+                  {product.title}
+                </h3>
+                <p className="text-gray-600 leading-relaxed">
+                  {product.description}
+                </p>
+
+                {/* Placeholder for product image */}
+                <div className="mt-6 aspect-video bg-gradient-to-br from-gray-50 to-gray-100 rounded-lg flex items-center justify-center">
+                  <span className="text-gray-400 text-sm">Product Image</span>
+                </div>
+
+                {/* Hover Effect Border */}
+                <div className={`absolute inset-0 rounded-2xl bg-gradient-to-br ${product.color} opacity-0 group-hover:opacity-10 transition-opacity -z-10`} />
+              </div>
+            );
+          })}
+        </div>
+
+        {/* Additional Info */}
+        <div className="mt-16 text-center">
+          <p className="text-gray-600 text-lg mb-6">
+            Don't see what you're looking for? We work with many other materials too!
+          </p>
+          <a
+            href="#contact"
+            className="inline-flex items-center justify-center bg-primary-600 text-white px-8 py-3 rounded-lg hover:bg-primary-700 transition-colors font-medium"
+          >
+            Get in Touch
+          </a>
+        </div>
+      </div>
+    </section>
+  );
+}
