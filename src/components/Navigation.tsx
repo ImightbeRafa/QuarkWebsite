@@ -55,10 +55,12 @@ export default function Navigation() {
               </a>
             ))}
             <a
-              href="#contact"
+              href="https://wa.me/50671746307"
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-primary-600 text-white px-6 py-2.5 rounded-lg hover:bg-primary-700 transition-colors font-medium"
             >
-              Contact Us
+              WhatsApp
             </a>
           </div>
 
@@ -86,11 +88,13 @@ export default function Navigation() {
                 </a>
               ))}
               <a
-                href="#contact"
+                href="https://wa.me/50671746307"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="bg-primary-600 text-white px-6 py-2.5 rounded-lg hover:bg-primary-700 transition-colors font-medium text-center"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
-                Contact Us
+                WhatsApp
               </a>
             </div>
           </div>

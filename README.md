@@ -185,11 +185,12 @@ After deployment:
 4. **Optimize Images**: Use Next.js Image component for better performance
 5. **Add More Pages**: Consider adding a blog, gallery, or detailed service pages
 
-## 📞 Support
+## 📞 Contact Information
 
-For questions or issues, contact Quark Costa Rica:
-- Instagram: [@quark.cr](https://www.instagram.com/quark.cr/)
-- Email: info@quarkcostarica.com
+The website is configured with:
+- **WhatsApp**: +506 7174 6307 (wa.me/50671746307)
+- **Instagram**: [@quark.cr](https://www.instagram.com/quark.cr/)
+- **Email**: quarkdesign.cr@gmail.com
 
 ## 📄 License
 

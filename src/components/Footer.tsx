@@ -1,10 +1,10 @@
-import { Instagram, Mail, MapPin, Phone } from "lucide-react";
+import { Instagram, Mail, MapPin, MessageCircle } from "lucide-react";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer id="contact" className="bg-gray-900 text-white">
+    <footer className="bg-gray-900 text-white">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Company Info */}
@@ -82,15 +82,22 @@ export default function Footer() {
               <li className="flex items-start space-x-3">
                 <Mail size={20} className="text-primary-400 mt-0.5 flex-shrink-0" />
                 <a
-                  href="mailto:info@quarkcostarica.com"
+                  href="mailto:quarkdesign.cr@gmail.com"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
-                  info@quarkcostarica.com
+                  quarkdesign.cr@gmail.com
                 </a>
               </li>
               <li className="flex items-start space-x-3">
-                <Phone size={20} className="text-primary-400 mt-0.5 flex-shrink-0" />
-                <span className="text-gray-400">Contact via Instagram</span>
+                <MessageCircle size={20} className="text-primary-400 mt-0.5 flex-shrink-0" />
+                <a
+                  href="https://wa.me/50671746307"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
+                  +506 7174 6307
+                </a>
               </li>
             </ul>
           </div>

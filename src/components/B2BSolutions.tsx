@@ -125,7 +125,9 @@ export default function B2BSolutions() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="#contact"
+              href="https://wa.me/50671746307?text=Hi%2C%20I%27m%20interested%20in%20B2B%20laser%20engraving%20solutions"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center justify-center bg-primary-600 text-white px-8 py-4 rounded-lg hover:bg-primary-700 transition-colors font-medium text-lg"
             >
               Request a Quote

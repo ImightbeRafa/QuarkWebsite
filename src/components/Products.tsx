@@ -87,10 +87,12 @@ export default function Products() {
             Don't see what you're looking for? We work with many other materials too!
           </p>
           <a
-            href="#contact"
+            href="https://wa.me/50671746307"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center justify-center bg-primary-600 text-white px-8 py-3 rounded-lg hover:bg-primary-700 transition-colors font-medium"
           >
-            Get in Touch
+            Contact on WhatsApp
           </a>
         </div>
       </div>

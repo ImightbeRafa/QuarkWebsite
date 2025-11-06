@@ -57,10 +57,12 @@ export default function Partners() {
             Let's create something amazing together.
           </p>
           <a
-            href="#contact"
+            href="https://wa.me/50671746307?text=Hi%2C%20I%27m%20interested%20in%20partnering%20with%20Quark%20Costa%20Rica"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center justify-center bg-primary-600 text-white px-8 py-3 rounded-lg hover:bg-primary-700 transition-colors font-medium"
           >
-            Get in Touch
+            Contact on WhatsApp
           </a>
         </div>
       </div>
